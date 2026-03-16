@@ -1,0 +1,27 @@
+<form action="/calculate" method="GET">
+
+<div class="input-group">
+<label>Loan Amount</label>
+<input type="number" name="loan" required>
+</div>
+
+<div class="input-group">
+<label>Interest Rate (% per year)</label>
+<input type="number" name="rate" step="0.01" required>
+</div>
+
+<div class="input-group">
+<label>Loan Tenure (months)</label>
+<input type="number" name="months" required>
+</div>
+
+<div class="input-group">
+<label>Monthly Salary</label>
+<input type="number" name="salary" required>
+</div>
+
+<div class="button-group">
+<button type="submit" class="btn btn-primary">Calculate EMI</button>
+</div>
+
+</form>
